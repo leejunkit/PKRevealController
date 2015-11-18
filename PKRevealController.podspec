@@ -8,6 +8,6 @@ Pod::Spec.new do |spec|
     spec.requires_arc = true
     spec.source = { :git => 'https://github.com/pkluz/PKRevealController.git', :tag => "v#{spec.version}" }
     spec.source_files = 'Source/**/*.{h,m}'
-    spec.framework = 'UIKit', 'QuartzCore', 'Foundation', 'XCTest'
+    spec.framework = 'UIKit', 'QuartzCore', 'Foundation', 'XCTest', 'OCMock'
     spec.platform = :ios, '6.0'
 end
